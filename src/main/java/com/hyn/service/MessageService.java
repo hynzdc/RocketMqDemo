@@ -1,7 +1,11 @@
-package com.hyn.service;/**
+package com.hyn.service;
+
+/**
  * @author hyn
+ * @version 1.0.0
  * @description 消息服务
  * @date 2023/4/11
- * @version 1.0.0
- */public class MessageService {
+ */
+public interface MessageService {
+    public void sendMessage(String topic,String msg);
 }

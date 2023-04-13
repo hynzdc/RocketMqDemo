@@ -1,7 +1,13 @@
-package com.hyn.service;/**
+package com.hyn.service;
+
+import java.security.PrivateKey;
+
+/**
  * @author hyn
- * @description 
- * @date 2023/4/11
  * @version 1.0.0
- */public interface RedisService {
+ * @description
+ * @date 2023/4/11
+ */
+public interface RedisService {
+    public void save(String key,String value);
 }
